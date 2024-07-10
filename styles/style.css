@@ -25,22 +25,17 @@ header{
     background-repeat: no-repeat;
     color: rgb(13, 19, 33);
 }
-#image{
-   
-}
-#had{
+#title{
     font-size: 48px;
     font-weight: 800;
-    line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
     margin: 24px 0px;
 }
-#paragrp{
+#descript{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     margin: 24px 0px;
@@ -92,4 +87,42 @@ h1{
 }
 #div1{
     display: flex;
+}
+.target-continer{
+    display: flex;
+    gap: 24px;
+}
+.target{
+    padding:30px;
+    border-radius: 5px;
+    background: rgba(255, 76, 30, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.section-title{
+    text-align:center ;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.section-descript{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.Section-bar{
+    position: static;
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 111px 0px;
+}
+.last{
+    border-radius: 16px;
+   background-image: url("../assets/handshake.jpg");
+
 }
