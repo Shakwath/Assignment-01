@@ -123,12 +123,15 @@ h1{
 }
 
 
-#video{
+.video{
         margin: 40px 13%;
         box-sizing: border-box;
         border: 1px solid rgba(13, 19, 33, 0.2);
-       border-radius: 20px;
-    }
+        border-radius: 16px;
+}
+#video{
+    border-radius: 20px;
+}
 
 .title-pg{
     margin: 10px 20%;
@@ -159,21 +162,15 @@ h1{
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
     width: 220px;
 }
-/* .section-title{
-    text-align:center;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    margin-left: 50px;
+#html{
+    background: rgba(255, 76, 30, 0.05);
 }
-.section-descript{
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    margin: 10px 20%;
-} */
+#css{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js{
+    background: rgba(255, 223, 0, 0.05);
+}
 .Section-bar{
     width: 1110px;
     height: 460px;
