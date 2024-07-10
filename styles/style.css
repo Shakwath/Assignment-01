@@ -85,7 +85,7 @@ h1{
     opacity: 0.7;
 
 }
-#cards{
+.cards{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -124,13 +124,14 @@ h1{
 
 
 #video{
-    border-radius: 16px;
-    margin: 40px 13%;
-}
+        margin: 40px 13%;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+       border-radius: 20px;
+    }
 
-#title-pg{
+.title-pg{
     margin: 10px 20%;
-    font-family: Azeret Mono;
 }
 .heading{
     color: rgba(13, 19, 33, 0.7);
@@ -156,12 +157,14 @@ h1{
     border-radius: 5px;
     background: rgba(255, 76, 30, 0.05);
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    width: 220px;
 }
-.section-title{
-    text-align:center ;
+/* .section-title{
+    text-align:center;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
+    margin-left: 50px;
 }
 .section-descript{
     color: rgb(13, 19, 33);
@@ -169,19 +172,31 @@ h1{
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-}
+    margin: 10px 20%;
+} */
 .Section-bar{
-    position: static;
-    width: 1140px;
+    width: 1110px;
     height: 460px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    margin: 111px 0px;
+    margin: 0px 10%;
+    border-radius: 30px;
 }
-.last{
-    border-radius: 16px;
-   background-image: url("../assets/handshake.jpg");
+.Target-img{
+    width: 10px;
+    height: 15px;
+}
 
+footer{
+   border-radius: 16px;
+   background-image: url("../assets/handshake.jpg");
+   width: 1140px;
+   height: 314px;
+}
+#last-title{
+    text-align: center;
+}
+#End{
+    display: flex;
+    margin-top: 30px;
+    gap: 50%;
 }
