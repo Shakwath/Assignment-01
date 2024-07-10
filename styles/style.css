@@ -7,7 +7,7 @@ nav>ul>li{
     display: inline;
 }
 #btn{
-    margin-left:70%;
+    margin-left:80%;
 }
 nav li>a, button>a{
     text-decoration: none;
@@ -16,21 +16,31 @@ header{
     background-image: url('../assets/Hero-bg.png');
     /* Hero-bg */
     position: center;
-    width: 1500px;
-    height: 650px;
+    width: 1195px;
+    height: 530px;
     left: 0;
     right: 0;
-    top: 131px;
+    top: 120px;
     bottom: 4462px;
     background-repeat: no-repeat;
     color: rgb(13, 19, 33);
 }
+#image{
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#banar-content{
+    width: 670px;
+    margin-left: 20%;
+}
 #title{
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 42px;
+    font-weight: 700;
     letter-spacing: 0%;
     text-align: center;
-    margin: 24px 0px;
+    margin: 22px 0px;
 }
 #descript{
     font-size: 16px;
@@ -40,15 +50,20 @@ header{
     opacity: 0.7;
     margin: 24px 0px;
 }
+nav button{
+   
+}
 #btun{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    width: 208px;
-    height: 66px;
+    width: 180px;
+    height: 55px;
+    margin-left: 42%;
 }
+
 .container{
     position: static;
     width: 946px;
