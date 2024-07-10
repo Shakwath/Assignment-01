@@ -52,11 +52,11 @@ header{
 }
 
 #btun{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 251, 251);
     font-size: 17px;
     text-align: center;
     border-radius: 8px;
-    background: rgb(13, 19, 33);
+    background: rgb(90, 99, 119);
     width: 180px;
     height: 55px;
     margin-left: 42%;
@@ -186,11 +186,37 @@ h1{
 footer{
    border-radius: 16px;
    background-image: url("../assets/handshake.jpg");
-   width: 1140px;
-   height: 314px;
+   width: 95%;
+   /* height: 465px; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 90px 58px 80px 48px;
+   ;
 }
 #last-title{
     text-align: center;
+}
+#last-head{
+        color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+}
+#last-parag{
+        color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+
+}#last-div{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+#last-sub{
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
 }
 #End{
     display: flex;
